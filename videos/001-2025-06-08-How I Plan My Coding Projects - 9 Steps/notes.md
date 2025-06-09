@@ -2,6 +2,16 @@
 
 Checklist to use when planning a project:
 
+- [ ] Start from your goal
+- [ ] Write user stories
+- [ ] Define your data models
+- [ ] Nail an MVP
+- [ ] Draw a simple prototype
+- [ ] Understand future scope
+- [ ] Drill into components
+- [ ] Pick the stack
+- [ ] Plan the development process
+
 > NOTE: Each step builds upon the previous one, so revisit earlier
 > decisions as needed.
 
