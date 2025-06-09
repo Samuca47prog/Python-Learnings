@@ -5,7 +5,12 @@
     "duration": "17:16", 
     "date_watched": "2025-06-08",
     "topics": [
-        "planning coding projects"
+        "planning coding projects",
+        "user stories",
+        "data modeling",
+        "prototyping",
+        "stack selection",
+        "software architecture"
     ],
     "level": "beginner",
     "language": "EN"

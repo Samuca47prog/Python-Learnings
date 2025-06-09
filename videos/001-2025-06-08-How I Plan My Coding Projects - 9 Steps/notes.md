@@ -2,25 +2,29 @@
 
 Checklist to use when planning a project:
 
+> NOTE: Each step builds upon the previous one, so revisit earlier
+> decisions as needed.
 
 ---
 
 # Step 1 - Start from your goal
 
-three maion questions:
+Three main questions:
 1. Why am I making this project?
 2. Who is this project for?
-3. What is gonna make it valuable?
+3. What will make it valuable?
 
-The answers for this three questions will set the directions and technical decision making.
+The answers to these three questions will set the directions and technical decision-making.
 
-Projects can be for Hobby, Portifolio, Customers. The needs and decisions will be different according to the goals of the project. 
+Projects can be for hobby, portfolio, or customers. The needs and decisions will be different according to the goals of the project.
+
+> These questions help keep your project aligned with its purpose.
 
 ---
 
 # Step 2 - Write user stories.
 
-Write simple user stories, considering user central design.
+Write simple user stories, considering user-centered design.
 This is **NOT technical yet**!
 
 Examples:
@@ -28,7 +32,9 @@ Examples:
 * User should be able to create an account
 * User should be able to view a dashboard
 
-Write 10 to 20 user stories. It will have MUSTs, SHOULDs and NICE TO HAVEs
+Write 10 to 20 user stories. It will have MUSTs, SHOULDs, and NICE-TO-HAVEs
+
+> This list clarifies what is essential versus optional.
 
 ---
 
@@ -36,56 +42,64 @@ Write 10 to 20 user stories. It will have MUSTs, SHOULDs and NICE TO HAVEs
 
 Think about the data that will be used. 
 
-No Stack (mongo db, postgre, etc) needed yet.
+No stack (MongoDB, PostgreSQL, etc.) needed yet.
 
 Main questions to answer here:
-* What information I need to store?
-* How it relates to the other data?
-* What those relantionships look like?
+* What information do I need to store?
+* How does it relate to the other data?
+* What do those relationships look like?
+
+> Sketching your models early helps visualize how everything fits together.
 
 Simple blog example:
 ![Blog models](images\Blog_models.png)
 
 ---
 
-# Step 4 - Nail a MVP
+# Step 4 - Nail an MVP
 
-Code a minimal viable product.
+Code a minimum viable product.
 
-Reduce half or even less of the users stories and code them. Go with the crucial features.
+Reduce half or even fewer of the user stories and code them. Go with the crucial features.
+
+> This keeps the project manageable while delivering value quickly.
 
 ---
 
-# Step 5 - Draw a stupid simple prototype, or very simple wireframe
+# Step 5 - Draw an extremely simple prototype or wireframe
 
-Write a simple wireframe on paper or online.
+Sketch a simple wireframe on paper or online.
 
-No need for figma or advanced wireframe tools here.
+No need for Figma or advanced wireframe tools here.
 
-Think on the screens needed, navigation, buttons, forms.
+Think about the screens needed: navigation, buttons, forms.
 
-It doesn't need fonts, colors, or looking good.
+It doesn't need fonts, colors, or to look good.
 
 Examples:
-* How the user login?
+* How does the user log in?
 * What happens after uploading a file?
 * How to navigate between the tabs?
 
-**Paper is cheate, code is expensive**
+**Paper is cheap; code is expensive.**
+
+> Low-fidelity sketches let you iterate without heavy investment.
 
 ---
 
-# Step 6 - Undestand what the future of the project is going to look like
+# Step 6 - Understand what the future of the project is going to look like
 
-Now you have a good idea of the user stories, the data needed and the wireframe.
+Now you have a good idea of the user stories, the data needed, and the wireframe.
 
-But before thinking of frameworks, stacks, etc, think of what is the future of the project.
+But before thinking of frameworks or stacks, consider what the future of the project is.
 
-The goal is to not overengeneering small projects, but also not underengeneering huge projects.
+The goal is to avoid over-engineering small projects but also avoid under-engineering huge projects.
 
 Questions:
-* How flexible the code needs to be?
-* Is it going to accept hundreds, thounsands, maybe ten thounsands users at the same time?
+* How flexible does the code need to be?
+* Is it going to accept hundreds, thousands, maybe tens of thousands of users at the same time?
+
+> Understanding these constraints prevents wasted effort later on.
 
 ---
 
@@ -93,25 +107,27 @@ Questions:
 
 The goal here is to help define the architecture of the project.
 
-What are the high level components?
+What are the high-level components?
 
 Examples:
 * Is it a simple script?
-* Will it have a interface?
-* Does it need a backend, frontend?
+* Will it have an interface?
+* Does it need a backend, a frontend?
 * Will it be a browser extension, mobile app, web service?
+
+> Listing components early helps visualize system boundaries.
 
 ---
 
 # Step 8 - Picking the stack
 
-We come with the project first, than we choose the stack/framework.
+We start with the project first, then choose the stack/framework.
 
-Pick the best tool that best fit the project.
+Pick the tool that best fits the project.
 
 Follow this:
 1. Pick the simplest stack
-2. That fits within the relative skillset
+ 2. That fits within the relevant skill set
 3. That can accomplish the goals
 
 Must decide on:
@@ -123,28 +139,32 @@ Must decide on:
 Example for a simple webapp:
 * Frontend: React
 * Backend: Node.js
-* Database: Mongo db
-* AI Agent: Lang Chain
+* Database: MongoDB
+* AI Agent: LangChain
 
 Key question:
-* Can I deploy the project with this stacks?
+* Can I deploy the project with these stacks?
+
+> You can always swap components later if the project grows.
 
 ---
 
 # Step 9 - Overall development process
 
-Make the core functionalities be ready to work before developing.
+Make the core functionalities work before adding extras.
 
-It is like making a good foundation to avoid errors due to stack issues.
+It's like building a good foundation to avoid errors due to stack issues.
 
-* Create a project skelleton
+* Create a project skeleton
   * basic folder structure
   * development environments
   * version control
-* Setting up the dabase and creating data models
+* Setting up the database and creating data models
 * Build the backend routes
   * API endpoints
 * Frontend interface
   * connect to backend
-* Project iteration (sprints to kill user stories.)
+* Project iteration (sprints to complete user stories.)
 * Automated deployments and testing (if needed)
+
+> Automated pipelines save headaches down the road.
