@@ -1,0 +1,12 @@
+{
+    "video_link": "https://youtu.be/FsB_nRGdeLs?si=AyxAQio-WaTQCO6X",
+    "title": "API Security Explained: Rate Limiting, CORS, SQL Injection, CSRF, XSS & More",
+    "author": "Hayk Simonyan",
+    "duration": "8:40", 
+    "date_watched": "2025-10-01",
+    "topics": [
+        "APIs"
+    ],
+    "level": "Mid",
+    "language": "EN"
+}

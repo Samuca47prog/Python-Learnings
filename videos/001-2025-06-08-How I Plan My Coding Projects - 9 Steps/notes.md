@@ -15,6 +15,62 @@ Checklist to use when planning a project:
 > NOTE: Each step builds upon the previous one, so revisit earlier
 > decisions as needed.
 
+---- Extension at 2025.09.10
+
+🔭 Vision & Context
+
+What problem am I solving, and why does it matter now?
+
+How will the world be different if this project succeeds?
+
+What happens if I do nothing about this problem?
+
+👥 Users & Stakeholders
+
+Who will use this, and what are they trying to achieve?
+
+What frustrations or obstacles do they face today?
+
+How will their life/work improve with my solution?
+
+Who else (besides users) cares about this project?
+
+💎 Value & Success
+
+What does “success” look like in measurable terms?
+
+Which outcomes are non-negotiable vs. nice-to-have?
+
+How will I know this project is worth continuing after MVP?
+
+⚖️ Constraints & Trade-offs
+
+What limits do I need to respect (time, money, privacy, tech)?
+
+What risks could make this project fail?
+
+What am I willing to compromise on (features, speed, accuracy)?
+
+🌱 Growth & Evolution
+
+How could this project evolve in 1 year, 3 years?
+
+What related opportunities might open if this works?
+
+How easy should it be for others to build on top of my project?
+
+🎯 Personal Fit
+
+What do I personally want to learn or prove by building this?
+
+How does this project connect to my long-term goals?
+
+What excites me most about working on this?
+
+----
+
+
+
 ---
 
 # Step 1 - Start from your goal
